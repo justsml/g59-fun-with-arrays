@@ -24,11 +24,3 @@ test('#positiveRowsOnly(): return only the rows in the matrix that have all posi
 
   t.deepEqual(actual, expected);
 });
-
-test('#allSameVowels(): return only those words where all the vowels are the same', function(t) {
-  let input = ['racecar', 'amalgam', 'oligopoly', 'zoom'];
-  let expected = ['amalgam', 'zoom'];
-  let actual = filter.allSameVowels(input);
-
-  t.deepEqual(actual, expected);
-});
