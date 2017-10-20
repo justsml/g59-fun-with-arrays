@@ -2,25 +2,6 @@
 
 Let's practice using the native array methods `some`, `every`, `map`, `filter`, and `reduce`!
 
-***
-
-```javascript
-some([🌽, 🐮, 🐔], includesVegetables]
-=> true
-
-every([🌽, 🐮, 🐔], onlyIncludesMeat]
-=> false
-
-map([🌽, 🐮, 🐔], cook]
-=> [🍿, 🍔, 🍳]
-
-filter([🍿, 🍔, 🍳], isVegetarian]
-=> [🍿, 🍳]
-
-reduce([🍿, 🍳], eat)
-=> 💩
-```
-
 #### Setup
 
 1. `npm install`
