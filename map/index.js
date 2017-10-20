@@ -7,7 +7,7 @@ function multiplyBy10(array) {
 
 function onlyVowels(array) {
   for (var i = 0; i < array.length; i++) {
-    array[i] = array[i].replace(/[^aeiou]*/gi, '');
+    array[i] = array[i].replace(/[^aeiou]*/gi, "");
   }
   return array;
 }
@@ -19,7 +19,7 @@ function doubleMatrix(array) {
     }
   }
   return array;
-  // return array.map(nums => nums.map(n => n * 2)); // your code here
+  return array.map(nums => nums.map(n => n * 2)); // your code here
 }
 
 module.exports = {
